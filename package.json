@@ -1,0 +1,30 @@
+{
+  "name": "jijelstore",
+  "version": "1.0.0",
+  "description": "JijelStore is an ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch backend --exec node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harounach/jijelstore.git"
+  },
+  "keywords": [
+    "JijelStore",
+    "Ecommerce"
+  ],
+  "author": "Haroun Ach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harounach/jijelstore/issues"
+  },
+  "homepage": "https://github.com/harounach/jijelstore#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
