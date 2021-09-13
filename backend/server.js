@@ -10,6 +10,7 @@ const mongoose = require("mongoose");
 
 const userRouter = require("./routers/userRouter");
 const productRouter = require("./routers/productRouter");
+const orderRouter = require("./routers/orderRouter");
 
 const port = process.env.PORT || 5000;
 
@@ -33,6 +34,8 @@ app.get("/", (req, res) => {
 app.use("/api/products", productRouter);
 
 app.use("/api/users", userRouter);
+
+app.use("/api/orders", orderRouter);
 
 app.listen(port, () => {
   console.log(`Serve at http://localhost:${port}`);
